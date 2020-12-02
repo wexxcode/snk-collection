@@ -1,17 +1,17 @@
-# GDN SKN  - Collection App :shoe:
+# GDN SKN  - Collection App
+ 🚧  Em construção...  🚧  <br />  <br />
 
-## Descrição do Projeto
-<p align="center">🚀 Aplicação para colecionadores e fãs de designs de tênis</p>
-<img alt="APM" src="https://img.shields.io/apm/v/0.1?logo=SNK&style=flat-square">
+
+Aplicativo para fãs de designs de tênis cadastrarem suas coleções para curadoria e compartilhamento com seus amigos, inimigos, parentes invejosos e outros colecionadores.<br />
 ### Requisitos funcionais:
 	
-**Cadastro de usuário**
+- [ ] **Cadastro de usuário**
 	
-**Cadastro de Marca**
+- [ ] **Cadastro de Marca**
 	
-**Cadastro de modelo, com a marca já selecionada**
+- [ ] **Cadastro de modelo, com a marca já selecionada**
 	
-**Cadastro de tênis**
+- [ ] **Cadastro de tênis**
 - Título
 - Subtítulo
 - Descrição livre (200 caracteres)
@@ -24,75 +24,53 @@
 - Imagem via api
 - localização de armazenamento do item no mundo real
 	
-**Categorizar os tênis por marca e modelo cor**
+- [ ] **Categorizar os tênis por marca e modelo cor**
 		
 **Filtros de pesquisa**
-- Modelo
-- Marca
-- Numeração
-- Cor Predominante
-- Cor Secundária
+- [ ] Modelo
+- [ ] Marca
+- [ ] Numeração
+- [ ] Cor Predominante
+- [ ] Cor Secundária<br/><br/>
 
 ### Requisitos não funcionais:
 
-**Versão web** (responsiva)
-**Versão app mobile** (react Native)
-**Disponível 24 por 7**
-**Utilizar mongoDB**
+**- Versão web** (responsiva) <br />
+**- Versão app mobile** (react Native) <br />
+**- Disponível 24 por 7** <br />
+**- Utilizar mongoDB**<br/><br/>
 
 ### Requisitos de Arte:
 
 **Uma Logo foda**
-- Uma coruja de skate usando um jordan e com baquetas
-
+- [ ] Uma coruja de skate usando um jordan e com baquetas<br/><br/>
 ### Informações Adicionais: 
 
-- **Sugestão de api:** https://docs.awesomeapi.com.br/  
+Este projeto foi criado com Create-react-app e utiliza as seguintes tecnologias:
+[Git](https://git-scm.com), [Node.js - 14.15.1](https://nodejs.org/en/), [Typescript 4.0.3](https://www.typescriptlang.org/), [MongDB](https://www.mongodb.com/) e [Styled-components](https://styled-components.com/).<br/><br/>
 
+🎲 **Rodando em ambiente local**
 
-## Getting Started with Create React App
+```bash
+# Clone este repositório
+$ git clone <https://github.com/wexxcode/snk-collenction>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Acesse a pasta do projeto no terminal/cmd
+$ cd snk-collenction
 
-## Available Scripts
+# Instale as dependências
+$ yarn
 
-In the project directory, you can run:
+# Execute a aplicação
+$ yarn start
 
-### `yarn start`
+# O servidor inciará na porta:3000- acesse <http://localhost:3000>
+```
+<br /><br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Para mais informações**<br /><br />
+[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[React documentation](https://reactjs.org/) 
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br /><br />
