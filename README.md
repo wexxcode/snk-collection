@@ -1,5 +1,5 @@
 # GDN SNK  - Collection App
- 🚧  Em construção...  🚧  <br />  <br />
+ 🚧   Em construção...   🚧  <br />  <br />
 
 
 Aplicativo para fãs de designs de tênis cadastrarem suas coleções para curadoria e compartilhamento com seus amigos, inimigos, parentes invejosos e outros colecionadores.<br />
