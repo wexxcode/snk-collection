@@ -1,4 +1,4 @@
-# GDN SKN  - Collection App
+# GDN SNK  - Collection App
  🚧  Em construção...  🚧  <br />  <br />
 
 
@@ -64,7 +64,7 @@ $ yarn
 # Execute a aplicação
 $ yarn start
 
-# O servidor inciará na porta:3000- acesse <http://localhost:3000>
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 ```
 <br /><br />
 
