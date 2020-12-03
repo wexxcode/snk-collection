@@ -1,10 +1,13 @@
 import React from 'react';
+
 import { Container } from './styles';
 
-export const Login: React.FC = () => {
+const Content: React.FC = ({ children }) => {
     return(
         <Container>
-            <h2>Login</h2>
+           {children}
         </Container>
     );
 }
+
+export default Content;

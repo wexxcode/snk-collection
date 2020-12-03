@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container} from './style';
+import { Container} from './styles';
 
 export const Item: React.FC = () => {
     return(
