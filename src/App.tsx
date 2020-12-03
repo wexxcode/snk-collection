@@ -4,6 +4,8 @@ import { Login } from './pages/Login';
 import GlobalStyles from './styles/GlobalStyles';
 
 import light from './styles/themes/light';
+import Layout from './components/Layout';
+
 
 
 
@@ -11,8 +13,11 @@ function App() {
   return (
     <ThemeProvider theme={light}>
       <GlobalStyles />
-      <h1>Just Do It</h1>
-      <Login />
+      <Layout>
+          <h1>Just Do It</h1>
+         <Login />
+      </Layout>
+      
     </ThemeProvider>
   );
 }
