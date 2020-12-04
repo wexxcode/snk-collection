@@ -18,4 +18,7 @@ export default createGlobalStyle`
     button {
         cursor: pointer;
     }
+    p, span, h1, h2, h3, h4, h5, h5 {
+        font-family: 'Lato', sans-serif;
+    }
 `;

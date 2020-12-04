@@ -18,5 +18,23 @@ declare module 'styled-components' {
             info: string,
             warning: string,
         },
+
+        borders: {
+            soft: string,
+            medium: string,
+            hard: string,
+        },
+        fontSize: {
+            little: string,
+            normal: string,
+            medium: string,
+            big: string,
+        },
+        fontWeight: {
+            light: string,
+            normal: string,
+            bold: string,
+            extra: string,
+        }
     };
 }

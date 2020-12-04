@@ -13,5 +13,23 @@ export default {
         succes: '#15D28F',
         info: '#FDC706',
         warning: '#FFFFFF',
+    },
+
+    borders: {
+        soft: '3px',
+        medium: '7px',
+        hard: '30px',
+    },
+    fontSize: {
+        little: '10px',
+        normal: '16px',
+        medium: '23px',
+        big: '48px',
+    },
+    fontWeight: {
+        light: '300',
+        normal: '400',
+        bold: '700',
+        extra: '900',
     }
 }
