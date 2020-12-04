@@ -7,5 +7,5 @@ export const Item: React.FC = () => {
         <Container>
             <h2>Item</h2>
         </Container>
-    )
+    );
 }

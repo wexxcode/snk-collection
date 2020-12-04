@@ -3,7 +3,7 @@ import  { Container } from './styles';
 
 const Layout: React.FC = ( { children }) => {
     return(
-        <Container>
+        <Container className="container-fluid">
              { children }
         </Container>
     )
