@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    img {
-        position: absolute;
-        top: 10px;
+    a {
+        width:75%;
+        img {
+            position: absolute;
+            top: 10px;
+            width: 89px;    
+        }
     }
     .nav {
         width: 100%;

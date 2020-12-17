@@ -8,4 +8,5 @@ export const Container = styled.div`
     background-position: 50% 75%;
     width: 100%;
     height: 100%;
+    padding: 50px 40px;
 `;

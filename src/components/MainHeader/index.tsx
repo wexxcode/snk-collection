@@ -8,8 +8,8 @@ const MainHeader: React.FC = () => {
             <nav>
                 <ul>
                     <li className="avatar"><img src="https://via.placeholder.com/150" alt="Avatar Usuário"/></li>
-                    <li className="avatar"><a href="#">Preferências</a></li>
-                    <li className="avatar"><a href="#">Meus Dados</a></li>
+                    <li className="avatar"><a href="/about">Sobre</a></li>
+                    <li className="avatar"><a href="/user">Preferências</a></li>
                 </ul>
             </nav>
             <Search />
