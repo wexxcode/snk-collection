@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Container} from './styles';
 import bg from '../../assets/gdn-yellow.jpeg';
+import SnkInput from "../../components/SnkInput";
 
 export const Item: React.FC = () => {
     return(
@@ -21,7 +22,7 @@ export const Item: React.FC = () => {
                             <p className="card-text">Preencha os campos abaixo para adicionar um novo item</p>
                             <div className="form-container">
                                 <div className="form-floating mb-3">
-                                    <input type="text" className="form-control" id="modelo" placeholder="Modelo" />
+                                    <SnkInput type="text" id="modelo" className="form-control" placeholder="Modelo"  />
                                     <label>Modelo</label>
                                 </div>
                                 <div className="form-floating mb-3">
