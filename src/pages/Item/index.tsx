@@ -26,12 +26,12 @@ export const Item: React.FC = () => {
                                     <label>Modelo</label>
                                 </div>
                                 <div className="form-floating mb-3">
-                                    <input type="text" className="form-control" id="modelo" placeholder="Modelo" />
+                                    <SnkInput type="text" id="marca" className="form-control" placeholder="Marca"  />
                                     <label>Marca</label>
                                 </div>
                                 <button className="btn btn-primary btn-add-company mb-3" type="button">+</button>
                                 <div className="form-floating form-description mb-3">
-                                    <input type="text" className="form-control" id="modelo" placeholder="Modelo" />
+                                    <SnkInput type="text" id="descricao" className="form-control" placeholder="Descrição"  />
                                     <label>Descrição</label>
                                 </div>
                                 <select className="form-select" aria-label="Default select example">
@@ -47,11 +47,11 @@ export const Item: React.FC = () => {
                                     <option value="3">44</option>
                                 </select>
                                 <div className="form-floating form-color">
-                                    <input type="text" className="form-control" id="modelo" placeholder="Modelo" />
+                                    <SnkInput type="text" id="corPredominante" className="form-control" placeholder="Cor Predominante"  />
                                     <label>Cor Predominante</label>
                                 </div>
                                 <div className="form-floating form-color">
-                                    <input type="text" className="form-control" id="modelo" placeholder="Modelo" />
+                                    <SnkInput type="text" id="corSecundaria" className="form-control" placeholder="Cor Secundária"  />
                                     <label>Cor Secundária</label>
                                 </div>
                                 <div className="form-check form-switch mb-1">
