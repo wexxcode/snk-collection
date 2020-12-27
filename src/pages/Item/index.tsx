@@ -3,8 +3,28 @@ import React from 'react';
 import { Container} from './styles';
 import bg from '../../assets/gdn-yellow.jpeg';
 import SnkInput from "../../components/SnkInput";
+import SnkDataTable from "../../components/DataTable";
+import firebaseSerice from "../../services/FirebaseService";
+
+export type Item = {
+    marca: string,
+    modelo: string,
+}
+
+const rows = createData()
+
+function createData() {
+    const rows: Item[] = [];
+    firebaseSerice.getDataList("marca").then(r => {
+        r.forEach((doc) => {
+            rows.push({marca: doc.id, modelo: doc.data().nome} )
+        });
+    });
+    return rows
+}
 
 export const Item: React.FC = () => {
+
     return(
         <Container> 
             <div className="card mb-3">
@@ -64,6 +84,11 @@ export const Item: React.FC = () => {
                     </div>
                 </div>
             </div>
+            <div className="card mb-3">
+                Tabela
+                <SnkDataTable data={rows} />
+            </div>
+
         </Container>
     );
 }
