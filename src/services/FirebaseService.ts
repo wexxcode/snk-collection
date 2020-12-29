@@ -1,15 +1,7 @@
 import firebase from "../utils/firebaseUtils";
 
-interface Marcas {
-    key: string
-    nome: string
-}
-
 const getDataList = (nodePath: string) => {
-    const db = firebase.firestore();
-    return db.collection(nodePath).get().then((querySnapshot) => {
-        return querySnapshot;
-    });
+    return firebase.firestore().collection(nodePath);
 }
 
 const adicionarMarca = (nome: string) => {
