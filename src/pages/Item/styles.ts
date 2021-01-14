@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.section`
+export const Container = styled.div`
     .card {
         border-radius: ${props => props.theme.borders.hard};
         border: 3px solid ${props => props.theme.colors.black};

@@ -17,7 +17,7 @@ const Navigation: React.FC = () => {
                         <a className="nav-link" href="">Modelo</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/itens">Iten</a>
+                        <a className="nav-link" href="/itens">Itens</a>
                     </li>
                 </ul>
             </nav>
